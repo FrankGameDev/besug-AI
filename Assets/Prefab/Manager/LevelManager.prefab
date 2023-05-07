@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4661762901072442718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5534355641196337386}
+  - component: {fileID: 6700430197092351937}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5534355641196337386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661762901072442718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6700430197092351937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661762901072442718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24add8ff29b7b574d9c2a70497e65163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  systemControllers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  maxResolvingFaultTimer: 10
+  indexActiveElements: 0
+  patients:
+  - {fileID: 1886582062674192443, guid: afdf540b61a0f3d48b248b9c4fdbe7a2, type: 3}
+  - {fileID: 1886582062674192443, guid: 896a11ffacbf02e4da4777b7951a2f0a, type: 3}
+  - {fileID: 1148172262510522032, guid: 230fef6ab4c31ff4c931808d1ee43e81, type: 3}
+  - {fileID: 1886582062674192443, guid: 6a32f28d5c5add547b9b3377da7d447d, type: 3}
+  - {fileID: 1886582062674192443, guid: dbed40f6c080b8f4aaa9ac1b5756fbad, type: 3}
+  - {fileID: 1886582062674192443, guid: bb55f1977da4d194996adf40348202ba, type: 3}
+  - {fileID: 1886582062674192443, guid: 1953628a04e04f147b7171b5102b095e, type: 3}
+  - {fileID: 1886582062674192443, guid: 4d7baf6f9dbb8a444873ad42fd57a489, type: 3}
+  - {fileID: 1886582062674192443, guid: be46965d107ba4a40bc793398d0c8f89, type: 3}
+  - {fileID: 1886582062674192443, guid: 4f870809dea6dfd43873f476273194d3, type: 3}
+  _patientTimer:
+  - 15
+  - 20
+  - 30
+  _dayTimer: 60
+  _currentDayTimer: 0
+  numeroConsumabiliInVendita: 0
+  activeFaultCounter: 0
+  _dayStarted: 0
