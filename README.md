@@ -4,4 +4,11 @@ This game is a mix of survival/roguelike/puzzle genre, where you play as a AI in
 
 It's a game made for a gamejam, the ZENOJAM7 (https://itch.io/jam/zeno-jam-7)
 
-You can find some sneak peek at the end of this readme, but the game is still in development
+You can find some sneak peek at the end of this readme, but the game is still in development.
+
+![PlayScene](https://github.com/FrankGameDev/besug-AI/blob/main/Screenshots/dbu3Hb.png)
+--------------------------------------------------------------------------------------------
+![The technician](https://github.com/FrankGameDev/besug-AI/blob/main/Screenshots/rwA9nq.png)
+---
+Credits:
+![Credits image](https://github.com/FrankGameDev/besug-AI/blob/main/Screenshots/JhpE9n.png)
